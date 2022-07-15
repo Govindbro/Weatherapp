@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Permanent+Marker&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.App {
+  text-align: center;
+  /* background-color: aqua; */
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 100px;
+}
+.form input{
+  padding:10px 15px;
+  border-radius: 30px;
+  box-shadow:2px 1px 5px 2px gray;
+  outline: none;
+  border: none;
+}
+.form button{
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 5px 15px;
+  /* background-color: black; */
+}
+.weather{
+  text-align: center;
+
+}
+.card{
+  margin-top: 180px;
+  border-radius: 20px;
+  background-image: url(/public/bg.jpg);
+  box-shadow:2px 1px 5px 2px gray;
+  outline: none;
+  border: none;
+  
+
+  
+    background-color: black;
+    /* color: white; */
+}
+.card img{
+  width: 30%;
+  margin-top: 20px;
+}
+.card  .place{
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  /* opacity: 0.8; */
+  margin: 10px 0;
+  color: red;
+  /* font-family: 'Rubik', sans-serif; */
+  font-weight: 800;
+}
+.card .temp{
+  font-size: 4rem;
+  font-weight: 500;
+  margin-left: 30.39px;;
+}
+.card .text{
+  font-size: 1rem;
+  font-weight: 500;
+}
+.whp{
+  margin: 20px 0;
+  margin-bottom: 20%;
+}
+.whp .title{
+  font-size: 1.2rem;
+}
+.whp .data{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.whp .data .unit{
+  font-size: 0.8rem;
+}
